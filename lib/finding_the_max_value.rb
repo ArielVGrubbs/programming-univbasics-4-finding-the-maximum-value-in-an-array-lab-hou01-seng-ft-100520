@@ -1,5 +1,5 @@
 def find_max_value(array)
-  record_high = nil
+  record_high = 0
   count = 0
   while count < array.length do
     if array[count] > record_high
